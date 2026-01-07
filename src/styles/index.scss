@@ -1,0 +1,63 @@
+.van-card {
+  position: relative;
+  box-sizing: border-box;
+  padding: var(--van-card-padding);
+  color: var(--van-card-text-color);
+  font-size: var(--van-card-font-size);
+  background-color: #fdfdfd;
+  margin: 15px auto;
+  border-radius: 15px;
+  width: 100%;
+  //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.van-button {
+  border-radius: 15px;
+}
+
+.van-nav-bar__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: var(--van-nav-bar-height);
+  // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h6 {
+  color: var(--van-gray-7);
+  margin: 0;
+}
+
+h5 {
+  color: var(--van-gray-7);
+  margin: 0;
+}
+
+h4 {
+  color: var(--van-gray-8);
+  margin: 0;
+}
+
+h3 {
+  color: var(--van-gray-8);
+  margin: 0;
+}
+
+h2 {
+  color: var(--van-gray-9);
+  margin: 0;
+}
+
+h1 {
+  color: var(--van-gray-9);
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #f4f5f7;
+  color: var(--page-text);
+  transition: background-color .3s;
+}
